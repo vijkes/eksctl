@@ -5,12 +5,12 @@ kind: ClusterConfig
 
 metadata:
   name: cluster-1
-  region: eu-north-1
+  region: us-east-1
 
 nodeGroups:
   - name: ng-1
-    instanceType: m5.large
-    desiredCapacity: 1
+    instanceType: t2.micro
+    desiredCapacity: 2
 
 cloudWatch:
     clusterLogging:
